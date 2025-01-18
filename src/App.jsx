@@ -12,7 +12,7 @@ const[count,setcount]=useState(0);
 const[time,setTime]=useState(0);
 useEffect(()=>{
   setTime(prev=>prev+1);
-},[dice])
+},[dice]);
 
 
 //  use Effect
